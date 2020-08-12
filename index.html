@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="./css/custom.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway"
+  />
+  <style>
+    body,
+    html {
+      height: 100%;
+      font-family: "Raleway", sans-serif;
+    }
+
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("./images/header-image.jpg");
+      min-height: 75%;
+      margin-top: 100px;
+    }
+
+    .menu {
+      display: none;
+    }
+    .buttons-container {
+      width: 100%;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <!-- Links (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-white w3-large" style="max-width: 100%; margin: auto;">
+        <div class="w3-center w3-padding-6">
+          <img
+            class="logo-image"
+            src="./images/logo.jpg"
+            alt="URW Canstruction"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container" id="home">
+      <div class="w3-row w3-display-middle w3-center">
+        <!-- <span class="w3-text-white" style="font-size: 90px;">URW Canstruction</span> -->
+        <h1 style="color: white;">URW Canstruction</h1>
+        <p style="color: white;">canstruction subtext stuff can go here</p>
+      </div>
+    </header>
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-large">
+        <div class="center">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfo0DvEyMRLSbZxQdqwzVQusVPdLWa3DydSh-3aoWdyEETuTA/viewform"
+            class="button"
+            target="_blank"
+          >
+            Application
+          </a>
+          <a
+            href="./files/urw-canstruction-info-packet.pdf"
+            download="urw-canstruction-info-packet"
+            class="button"
+            target="_blank"
+          >
+            Download Information Packet
+          </a>
+    </div>
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+      <div class="w3-content" style="max-width: 700px;">
+        <h5 class="w3-center w3-padding-64">
+          <span class="w3-wide">ABOUT CANSTRUCTION</span>
+        </h5>
+        <p>
+          a;slkdnfkasdflaksdfjlaksdfj as;dfjlaskdfjalksdfj alsdkjf
+          lkasdjfasdlkfj kadsjfkajsdfklj lkasdjflkadsjf laksdjf laskdjf laksdjf
+          alsdkfj laksdjf ajsdklfjpoawe pawoemfapweomf epwfaw peofm
+        </p>
+        <p>
+          a;slkdnfkasdflaksdfjlaksdfj as;dfjlaskdfjalksdfj alsdkjf
+          lkasdjfasdlkfj kadsjfkajsdfklj lkasdjflkadsjf laksdjf laskdjf laksdjf
+          alsdkfj laksdjf ajsdklfjpoawe pawoemfapweomf epwfaw peofm
+        </p>
+      </div>
+
+      <!-- Menu Container -->
+
+      <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <!-- <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+      <p>
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >w3.css</a
+        >
+      </p>
+    </footer> -->
+
+    <script>
+      // Tabbed Menu
+      function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(
+            " w3-dark-grey",
+            ""
+          );
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+      }
+      document.getElementById("myLink").click();
+    </script>
+  </body>
+</html>
