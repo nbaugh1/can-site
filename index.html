@@ -16,14 +16,6 @@
       font-family: "Raleway", sans-serif;
     }
 
-    .bgimg {
-      background-position: top;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-image: url("./images/header-image.png");
-      min-height: 60%;
-    }
-
     .menu {
       display: none;
     }
@@ -33,26 +25,11 @@
     }
   </style>
   <body>
-    <!-- Links (sit on top) -->
-    <!-- <div class="w3-top">
-      <div class="w3-white w3-large" style="max-width: 100%; margin: auto;">
-        <div class="w3-center w3-padding-6">
-          <img
-            class="logo-image"
-            src="./images/logo.jpg"
-            alt="URW Canstruction"
-          />
-        </div>
+    <section>
+      <div class="header-container">
+        <img class src="images/header-image.png" />
       </div>
-    </div> -->
-    <!-- Header with image -->
-    
-    <header class="bgimg w3-display-container" id="home">
-      <div class="w3-row w3-display-middle w3-center">
-        <!-- <span class="w3-text-white" style="font-size: 90px;">URW Canstruction</span> -->
-      </div>
-    </header>
-    <!-- Add a background color and large text to the whole page -->
+    </section>
     <div class="w3-large">
       
         <div class="center">
@@ -73,7 +50,6 @@
           </a>
           
     </div>
-    <!-- About Container -->
     <div class="w3-container" id="about">
       <div class="w3-content" style="max-width: 700px;">
         <h5 class="w3-center w3-padding-16">
@@ -94,32 +70,7 @@
         </p>
         <br />
       </div>
-
-      <!-- Menu Container -->
-
-      <!-- End page content -->
     </div>
-
-
-    <script>
-      // Tabbed Menu
-      function openMenu(evt, menuName) {
-        var i, x, tablinks;
-        x = document.getElementsByClassName("menu");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablink");
-        for (i = 0; i < x.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(
-            " w3-dark-grey",
-            ""
-          );
-        }
-        document.getElementById(menuName).style.display = "block";
-        evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-      }
-      document.getElementById("myLink").click();
-    </script>
+    
   </body>
 </html>
