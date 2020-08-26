@@ -2,24 +2,25 @@
   max-height: 100px;
 }
 
-/* a.button {
-  background-color: red;
-  border: none;
-  color: white;
-  padding: 15px;
+#main {
+  vertical-align: middle;
+  width: 100%;
   text-align: center;
-  text-decoration: none;
-  display: block;
-  margin: 5px;
-  width: 25%;
-} */
-
+  display: table;
+}
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  margin: 10px;
+  padding-top: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "brandon grotesque", sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
 }
 
 img {
@@ -35,8 +36,6 @@ a.button {
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
   color: #ffffff;
   text-align: center;
   transition: all 0.2s;
