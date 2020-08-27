@@ -45,6 +45,11 @@ a.button:hover {
   background-color: #e0e0e1;
 }
 
+a.small-button:hover {
+  color: white;
+  background-color: #e0e0e1;
+}
+
 @media all and (max-width: 30em) {
    a.button {
     display: block;
