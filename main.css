@@ -1,31 +1,27 @@
-.logo-image {
-  max-height: 100px;
-}
-
-#main {
-  vertical-align: middle;
-  width: 100%;
-  text-align: center;
-  display: table;
-}
-.center {
-  padding-top: 30px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "brandon grotesque", sans-serif;
+body,
+html {
+  height: 100%;
+  font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
-  margin: 10px 0;
+  font-style: normal;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.map-image {
+  max-width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 a.button {
@@ -36,18 +32,28 @@ a.button {
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
+  font-weight: 300;
   color: #ffffff;
   text-align: center;
   transition: all 0.2s;
   background-color: #da291c;
+  min-width: 100px;
 }
+
 a.button:hover {
   color: white;
   background-color: #e0e0e1;
 }
+
 @media all and (max-width: 30em) {
    a.button {
     display: block;
     margin: 0.4em auto;
   }
+}
+
+p {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: large;
 }

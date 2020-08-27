@@ -1,77 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-  <title>URW Canstruction</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link rel="stylesheet" href="main.css" />
-  <link rel="stylesheet" href="https://use.typekit.net/xul1odu.css" />
-  <style>
-    body,
-    html {
-      height: 100%;
-      font-family: brandon-grotesque, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-
-    .menu {
-      display: none;
-    }
-    .buttons-container {
-      width: 100%;
-      text-align: center;
-    }
-  </style>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>URW Canstruction</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/xul1odu.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
   <body>
-    <div id="main">
-      <section>
-        <div class="header-container">
-          <img class src="images/header-image.png" />
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="images/brand-image.png" style="width: 300px;" />
+      </a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a
+            href="mailto:uscanstruction@urw.com?subject=Canstruction question"
+            class="button"
+            target="_blank"
+          >
+            Questions?
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <div class="header-container">
+        <img src="images/header-image.png" />
+      </div>
+    </section>
+    <section>
+      <div style="text-align: center; margin-top: 50px;">
+        <a
+          href="./files/urw-canstruction-info-packet.pdf"
+          download="urw-canstruction-info-packet"
+          class="button"
+          target="_blank"
+          style="margin-bottom: 20px;"
+        >
+          Program Overview
+        </a>
+        <p>
+          Canstruction® is an international 501c3 charity which hosts team
+          competitions to design and build gigantic structures made entirely
+          from full cans of food. Westfield, in partnership with Canstruction,
+          is hosting 14 events to benefit local food banks in our communities.
+          Teams will fundraise, design and build their CAN-structures composed
+          entirely of non-perishable food items. Westfield will host the
+          structures as art exhibitions open to the public, and prizes will be
+          awarded at each participating shopping center. At the close of the
+          exhibition, all of the cans will be donated to locally selected food
+          banks. Canstruction has raised millions of pounds of food in 170
+          participating cities and is one of the largest drives for food bank
+          donations in the world. Register now to join the fight against hunger
+          in a city near you!
+        </p>
+      </div>
+
+      <div class="center">
+        <div class="btn-group-vertical">
+          <a
+            href="https://app.smartsheet.com/b/form/d7997ecb19e645f593ff1734ab2914ee"
+            class="button"
+            target="_blank"
+          >
+            Apply Now!
+          </a>
         </div>
-      </section>
-      <section>
-        <div class="center">
-          <div>
-            <a
-              href="./files/urw-canstruction-info-packet.pdf"
-              download="urw-canstruction-info-packet"
-              class="button"
-              target="_blank"
-            >
-              Program Overview
-            </a>
-            <a
-              href="https://app.smartsheet.com/b/form/d7997ecb19e645f593ff1734ab2914ee"
-              class="button"
-              target="_blank"
-            >
-              Application
-            </a>
-          </div>
-          <div>
-            <h5>
-              ABOUT CANSTRUCTION
-            </h5>
-            <br />
-            <p>
-              Westfield, in partnership with CANstruction®, is hosting a
-              nationwide effort to fight hunger by supplying food to communities
-              in need, and we need your help!
-            </p>
-            <p>
-              We are offering a one-of-a-kind opportunity to support a
-              non-profit organization that has raised millions of pounds of food
-              worldwide, while participating in a fun competition with your
-              friends and coworkers. This interactive event will be held at over
-              a dozen of our centers across the nation and we would like to
-              invite organizations like yours to register today and join the
-              fight!
-            </p>
-            <br />
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
+      <div class="center">
+        <img class="map-image" src="images/events-map.png" />
+      </div>
+      <footer class="footer">
+        <p><small>© 2020 Westfield Crop, Design by Nick Baughman</small></p>
+      </footer>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="" async defer></script>
   </body>
 </html>
